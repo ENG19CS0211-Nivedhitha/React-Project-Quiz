@@ -6,8 +6,7 @@ function Menu() {
     return ( 
         <div className='Menu'>
             <div className='input-values'>
-            <input type='text' placeholder='Name'></input>
-            <input type='text' placeholder='Password'></input>
+            <input type='text' placeholder='Enter your name (optional)'></input>
             </div>
             <button onClick = {() =>  {setGameState("quiz")}}>Start Quiz</button>
             {/*<button onClick={() => {setGameState("endscreen")}}>End Screen</button>*/}
